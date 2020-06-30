@@ -14,11 +14,11 @@ Jawaban soal tryout javascript No 1-10
     - Menggunakan fungsi reduce() untuk menjumlah iterasi setiap nilai dan mentotalnya kemudian membagi dengan panjang array untuk mendapatkan rata-rata
     
 4. Mendeteksi kalimat palidrom atau bukan menggunakan fungsi ES6 :
-    - Yang pertama ubah dulu semua bilangan menjadi huruf kecil agar bisa dibandingkan dan menghilangkan semua karakter whitespace
+    - Yang pertama ubah dulu semua bilangan menjadi huruf kecil dan menghilangkan semua karakter whitespace agar bisa dibandingkan dengan setara
     - Kemudian ubah string menjadi array dulu menggunakan fungsi split() 
     - kemudian balik nilai array menggunakan fungsi reverse() 
-    - selanjutnya gabungkan kembali array menjadi string agar bisa dibandingkan menggunakan fungsi join()
-    - Setelah itu kita bandingkan 
+    - selanjutnya gabungkan kembali array menjadi string menggunakan fungsi join()
+    - Setelah itu kita bandingkan string awal dan string yang sudah dibalik
  ```js
 //Palindrom adalah sebuah kata, frasa, angka maupun susunan lainnya yang dapat dibaca dengan sama baik dari depan maupun belakang
 ```
