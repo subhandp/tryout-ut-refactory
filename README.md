@@ -69,12 +69,10 @@ Jawaban soal tryout javascript No 1-10
 </ul>
 ```
 
-7. Fungsi membalikan string menggunakan fungsi ES6
-```js
-split();
-reverse();
-join();
-```
+7. Fungsi membalikan string menggunakan fungsi split(),reverse(),join() ES6
+
+8. Menggunakan perulangan while dengan kondisi berhenti dan mengouput total nilai jika menerima inputan string '='
+
 9. Menggunakan Set() untuk mendapatkan nilai array yang unique
 
 10. Mendapatkan nilai dari object array sesuai kondisi yang ada dengan menggunakan fungsi filter() ES6
