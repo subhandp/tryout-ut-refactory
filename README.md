@@ -8,7 +8,11 @@ Jawaban soal tryout javascript No 1-10
 ```js
 //Bilangan ganjil adalah bilangan yang memiliki sisa pembagian dan Bilangan genap adalah bilangan yang tidak memiliki sisa pembagian
 ```
-
+3. Menggunakan fungsi ES6 pada array untuk mencari nilai maksimal,minimal, dan rata-rata dan menggunakan try..catch untuk mencegah kesalahan input sesuai paramater
+    - Mencari nilai maksimal dengan menggunakan fungsi Math.max()
+    - Mencari nilai minimal dengan menggunakan fungsi Math.min()
+    - Menggunakan fungsi reduce() untuk menjumlah iterasi setiap nilai dan mentotalnya kemudian membagi dengan panjang array untuk mendapatkan rata-rata
+    
 4. Mendeteksi kalimat palidrom atau bukan menggunakan fungsi ES6 :
     - Yang pertama ubah dulu semua bilangan menjadi huruf kecil agar bisa dibandingkan dan menghilangkan semua karakter whitespace
     - Kemudian ubah string menjadi array dulu menggunakan fungsi split() 
@@ -71,7 +75,7 @@ Jawaban soal tryout javascript No 1-10
 
 7. Fungsi membalikan string menggunakan fungsi split(),reverse(),join() ES6
 
-8. Menggunakan perulangan while dengan kondisi berhenti dan mengouput total nilai jika menerima inputan string '='
+8. Menggunakan perulangan do..while dengan kondisi berhenti dan ouput total nilai jika menerima inputan string '='
 
 9. Menggunakan Set() untuk mendapatkan nilai array yang unique
 
