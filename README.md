@@ -12,6 +12,10 @@ Jawaban soal tryout javascript No 1-10
     - Mencari nilai maksimal dengan menggunakan fungsi Math.max()
     - Mencari nilai minimal dengan menggunakan fungsi Math.min()
     - Menggunakan fungsi reduce() untuk mentotal nilai pada array dan kemudian membagi dengan panjang array untuk mendapatkan rata-rata
+ >try..catch untuk
+    - maksimal inputan nilai acak 1-100
+    - nilai harus integer
+    - nilai harus dalam bentuk array
     
 4. Mendeteksi kalimat palidrom atau bukan menggunakan fungsi ES6 :
     - Yang pertama ubah dulu semua bilangan menjadi huruf kecil dan menghilangkan semua karakter whitespace agar bisa dibandingkan dengan setara
