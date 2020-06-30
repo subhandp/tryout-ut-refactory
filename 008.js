@@ -1,13 +1,13 @@
 function myPrompt(){
     let val;
     let total = 0;
-    while(val !== '='){
+    do{
+        val = prompt("Input angka anda untuk ditotalkan: ");
         if (Number.isInteger(val)) {
-            val = prompt("Input angka anda untuk ditotalkan: ");
             total += parseInt(val);
         }
 
-    }
+    } while(val !== '=')
     let hasil = `Total nilai adalah ${total}`;
     console.log(hasil);
     return hasil;
