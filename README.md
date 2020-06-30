@@ -2,13 +2,13 @@
 Jawaban soal tryout javascript No 1-10  
 
 # Penjelasan
-1. Menggunakan percabangan if..else dan operator perbandingan dan logika untuk mendapat nilai antara
+001. Menggunakan percabangan if..else dan operator perbandingan dan logika untuk mendapat nilai antara
 
-2. Menggunakan operator modulu % untuk mendapat sisa pembagian untuk menentukan bilangan ganjil dan genap
+002. Menggunakan operator modulu % untuk mendapat sisa pembagian untuk menentukan bilangan ganjil dan genap
 ```js
 //Bilangan ganjil adalah bilangan yang memiliki sisa pembagian dan Bilangan genap adalah bilangan yang tidak memiliki sisa pembagian
 ```
-3. Menggunakan fungsi ES6 pada array untuk mencari nilai maksimal,minimal, dan rata-rata dan menggunakan try..catch untuk mencegah kesalahan input sesuai paramater
+003. Menggunakan fungsi ES6 pada array untuk mencari nilai maksimal,minimal, dan rata-rata dan menggunakan try..catch untuk mencegah kesalahan input sesuai paramater
     - Mencari nilai maksimal dengan menggunakan fungsi Math.max()
     - Mencari nilai minimal dengan menggunakan fungsi Math.min()
     - Menggunakan fungsi reduce() untuk mentotal nilai pada array dan kemudian membagi dengan panjang array untuk mendapatkan rata-rata
@@ -17,7 +17,7 @@ Jawaban soal tryout javascript No 1-10
     - nilai harus integer
     - nilai harus dalam bentuk array
     
-4. Mendeteksi kalimat palidrom atau bukan menggunakan fungsi ES6 :
+004. Mendeteksi kalimat palidrom atau bukan menggunakan fungsi ES6 :
     - Yang pertama ubah dulu semua bilangan menjadi huruf kecil dan menghilangkan semua karakter whitespace agar bisa dibandingkan dengan setara
     - Kemudian ubah string menjadi array dulu menggunakan fungsi split() 
     - kemudian balik nilai array menggunakan fungsi reverse() 
@@ -27,13 +27,13 @@ Jawaban soal tryout javascript No 1-10
 //Palindrom adalah sebuah kata, frasa, angka maupun susunan lainnya yang dapat dibaca dengan sama baik dari depan maupun belakang
 ```
     
-5. Menggunakan operator modulo untuk mencari tahun kabisat
+005. Menggunakan operator modulo untuk mencari tahun kabisat
  ```js
 //Tahun kabisat adalah tahun yang dapat dibagi dengan 4 dan tidak oleh 100 atau habis dibagi oleh 400.
 ```
  
 
-6. Membuat unordered list html tag dengan data object array menggunakan recursive
+006. Membuat unordered list html tag dengan data object array menggunakan recursive
 > nilai inputan berupa object array
 ```js
   let menuObj = [
@@ -77,13 +77,13 @@ Jawaban soal tryout javascript No 1-10
 </ul>
 ```
 
-7. Fungsi membalikan string menggunakan fungsi split(),reverse(),join() ES6
+007. Fungsi membalikan string menggunakan fungsi split(),reverse(),join() ES6
 
-8. Menggunakan perulangan do..while dengan kondisi berhenti dan ouput total nilai jika menerima inputan string '='
+008. Menggunakan perulangan do..while dengan kondisi berhenti dan ouput total nilai jika menerima inputan string '='
 
-9. Menggunakan Set() untuk mendapatkan nilai array yang unique
+009. Menggunakan Set() untuk mendapatkan nilai array yang unique
 
-10. Mendapatkan nilai dari object array sesuai kondisi yang ada dengan menggunakan fungsi filter() ES6
+010. Mendapatkan nilai dari object array sesuai kondisi yang ada dengan menggunakan fungsi filter() ES6
     - Ubah dulu JSON string menjadi JSON object
     - Iterasi kesemua elemen array dengan kondisi jika nilai < 21 maka object yang mengandung nilai tersebut di return oleh fungsi filter()
     - Terakhir mengubah ulang JSON object ke JSON string
