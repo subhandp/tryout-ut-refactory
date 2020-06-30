@@ -7,7 +7,7 @@ function myPrompt(){
             total += parseInt(val);
         }
 
-    } while(val !== '=')
+    }while(val !== '=')
     let hasil = `Total nilai adalah ${total}`;
     console.log(hasil);
     return hasil;
