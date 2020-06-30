@@ -11,7 +11,7 @@ Jawaban soal tryout javascript No 1-10
 3. Menggunakan fungsi ES6 pada array untuk mencari nilai maksimal,minimal, dan rata-rata dan menggunakan try..catch untuk mencegah kesalahan input sesuai paramater
     - Mencari nilai maksimal dengan menggunakan fungsi Math.max()
     - Mencari nilai minimal dengan menggunakan fungsi Math.min()
-    - Menggunakan fungsi reduce() untuk menjumlah iterasi setiap nilai dan mentotalnya kemudian membagi dengan panjang array untuk mendapatkan rata-rata
+    - Menggunakan fungsi reduce() untuk mentotal nilai pada array dan kemudian membagi dengan panjang array untuk mendapatkan rata-rata
     
 4. Mendeteksi kalimat palidrom atau bukan menggunakan fungsi ES6 :
     - Yang pertama ubah dulu semua bilangan menjadi huruf kecil dan menghilangkan semua karakter whitespace agar bisa dibandingkan dengan setara
