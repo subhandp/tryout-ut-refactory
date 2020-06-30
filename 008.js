@@ -3,7 +3,7 @@ function myPrompt(){
     let total = 0;
     do{
         val = prompt("Input angka anda untuk ditotalkan: ");
-        if (Number.isInteger(val)) {
+        if (Number.isInteger(parseInt(val))) {
             total += parseInt(val);
         }
 
